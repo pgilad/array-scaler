@@ -1,7 +1,7 @@
 {
     "name": "scaler",
     "version": "0.1.0",
-    "description": "scale an array to discrete or continuous scale preserving order",
+    "description": "Scale an array preserving order to a discrete or continuous scale",
     "license": "MIT",
     "repository": "pgilad/scaler",
     "author": {
@@ -12,9 +12,6 @@
     "homepage": "https://github.com/pgilad/scaler",
     "bugs": "https://github.com/pgilad/scaler/issues",
     "main": "index.js",
-    "bin": {
-        "scaler": "cli.js"
-    },
     "engines": {
         "node": ">=0.10.0"
     },
