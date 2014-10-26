@@ -1,40 +1,40 @@
 {
-    "name": "scaler",
-    "version": "0.1.0",
-    "description": "Scale an array preserving order to a discrete or continuous scale",
-    "license": "MIT",
-    "repository": "pgilad/scaler",
-    "author": {
-        "name": "Gilad Peleg",
-        "email": "giladp007@gmail.com",
-        "url": "http://giladpeleg.com"
-    },
-    "homepage": "https://github.com/pgilad/scaler",
-    "bugs": "https://github.com/pgilad/scaler/issues",
-    "main": "index.js",
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "mocha",
-        "watchTest": "mocha --watch"
-    },
-    "keywords": [
-        "cli-app",
-        "cli",
-        "bin",
-        "js",
-        "scale",
-        "array",
-        "transform",
-        "discrete",
-        "continuous"
-    ],
-    "dependencies": {
-        "array-uniq": "^1.0.1"
-    },
-    "devDependencies": {
-        "expect.js": "^0.3.1",
-        "mocha": "^2.0.1"
-    }
+  "name": "scaler",
+  "version": "0.2.0",
+  "description": "Scale an array preserving order to a discrete or continuous scale",
+  "license": "MIT",
+  "repository": "pgilad/scaler",
+  "author": {
+    "name": "Gilad Peleg",
+    "email": "giladp007@gmail.com",
+    "url": "http://giladpeleg.com"
+  },
+  "homepage": "https://github.com/pgilad/scaler",
+  "bugs": "https://github.com/pgilad/scaler/issues",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "watchTest": "mocha --watch"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "js",
+    "scale",
+    "array",
+    "transform",
+    "discrete",
+    "continuous"
+  ],
+  "dependencies": {
+    "array-uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1"
+  }
 }
