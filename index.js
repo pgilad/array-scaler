@@ -77,7 +77,8 @@ function continuous(arr, options) {
  * @param {number[]} arr - Array to scale
  * @param {number} [options.max] - Maximum number to fit in
  * @param {number} options.min - Minimum number to fit in
- * @param {boolean} [options.continuous] Should the return array be continuous or discrete
+ * @param {number} [options.step=1] - Step to use in discrete mode
+ * @param {boolean} [options.continuous=false] - Use a continuous scale instead of discrete
  * @return Array
  */
 function scale(arr, options) {

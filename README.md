@@ -55,6 +55,58 @@ console.log(scaledArray);
 
 ## API
 
+### .scale(array, params)
+
+#### array
+
+Type: `array`
+
+*Required*
+
+The array you want to scale
+
+#### params
+
+##### min
+
+Type: 'number'
+
+*Required*
+
+The minimum number to start the scale with.
+
+##### max
+
+Type: 'number'
+
+Default: `Infinity`
+
+The maximum number to fit the scale into.
+If supplied - validation will be done to make sure the number of unique items in the array will fit the range.
+
+##### continuous
+
+Type: 'boolean'
+
+Default: `false`
+
+Whether to use a `continuous` scale. Default is to use a `discrete` scale.
+
+##### continuous
+
+Type: 'boolean'
+
+Default: `false`
+
+Whether to use a `continuous` scale. Default is to use a `discrete` scale.
+
+##### step
+
+Type: 'number'
+
+Default: `1`
+
+Step to use when scaling in `discrete` mode. Has no effect in `continuous` mode.
 
 ## License
 MIT @[Gilad Peleg](http://giladpeleg.com)
