@@ -12,9 +12,10 @@ $ npm install --save scaler
 
 ```js
 var scaler = require('scaler');
+var scaledArray;
 
 // scale a simple array with default step = 1
-var scaledArray = scaler.scale([1, 2, 5], {
+scaledArray = scaler.scale([1, 2, 5], {
         min: 1
 });
 console.log(scaledArray);
@@ -44,7 +45,7 @@ console.log(scaledArray);
 //=> [-5, -3, -4]
 
 // Get a continuous scale
-var scaledArray = scaler.scale([1, 2, 5], {
+scaledArray = scaler.scale([1, 2, 5], {
         min: 1,
         max: 3,
         continuous: true
