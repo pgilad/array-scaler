@@ -61,7 +61,7 @@ console.log(scaledArray);
 
 Type: `array`
 
-*Required*
+**Required**
 
 The array you want to scale
 
@@ -69,15 +69,15 @@ The array you want to scale
 
 ##### min
 
-Type: 'number'
+Type: `number`
 
-*Required*
+**Required**
 
 The minimum number to start the scale with.
 
 ##### max
 
-Type: 'number'
+Type: `number`
 
 Default: `Infinity`
 
@@ -86,7 +86,7 @@ If supplied - validation will be done to make sure the number of unique items in
 
 ##### continuous
 
-Type: 'boolean'
+Type: `boolean`
 
 Default: `false`
 
@@ -94,7 +94,7 @@ Whether to use a `continuous` scale. Default is to use a `discrete` scale.
 
 ##### continuous
 
-Type: 'boolean'
+Type: `boolean`
 
 Default: `false`
 
