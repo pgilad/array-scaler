@@ -89,14 +89,6 @@ Default: `false`
 
 Whether to use a `continuous` scale. Default is to use a `discrete` scale.
 
-##### continuous
-
-Type: `boolean`
-
-Default: `false`
-
-Whether to use a `continuous` scale. Default is to use a `discrete` scale.
-
 ##### step
 
 Type: `number`
