@@ -59,9 +59,7 @@ console.log(scaledArray);
 
 #### array
 
-Type: `array`
-
-**Required**
+Type: `array` **required**
 
 The array you want to scale
 
@@ -69,9 +67,7 @@ The array you want to scale
 
 ##### min
 
-Type: `number`
-
-**Required**
+Type: `number` **required**
 
 The minimum number to start the scale with.
 
@@ -102,7 +98,7 @@ Whether to use a `continuous` scale. Default is to use a `discrete` scale.
 
 ##### step
 
-Type: 'number'
+Type: `number`
 
 Default: `1`
 
