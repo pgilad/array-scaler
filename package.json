@@ -2,8 +2,8 @@
   "name": "scaler",
   "version": "0.2.1",
   "description": "Scale an array preserving order to a discrete or continuous scale",
-  "license": "MIT",
   "repository": "pgilad/scaler",
+  "license": "MIT",
   "author": {
     "name": "Gilad Peleg",
     "email": "giladp007@gmail.com",
