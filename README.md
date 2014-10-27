@@ -98,4 +98,5 @@ Default: `1`
 Step to use when scaling in `discrete` mode. Has no effect in `continuous` mode.
 
 ## License
+
 MIT @[Gilad Peleg](http://giladpeleg.com)
