@@ -9,8 +9,6 @@
     "email": "giladp007@gmail.com",
     "url": "http://giladpeleg.com"
   },
-  "homepage": "https://github.com/pgilad/scaler",
-  "bugs": "https://github.com/pgilad/scaler/issues",
   "main": "index.js",
   "files": [
     "index.js"
