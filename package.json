@@ -1,8 +1,8 @@
 {
-  "name": "scaler",
+  "name": "array-scaler",
   "version": "0.2.1",
   "description": "Scale an array preserving order to a discrete or continuous scale",
-  "repository": "pgilad/scaler",
+  "repository": "pgilad/array-scaler",
   "license": "MIT",
   "author": {
     "name": "Gilad Peleg",

@@ -1,17 +1,17 @@
-# scaler [![Build Status](http://img.shields.io/travis/pgilad/scaler.svg?style=flat)](https://travis-ci.org/pgilad/scaler)
+# array-scaler [![Build Status](http://img.shields.io/travis/pgilad/array-scaler.svg?style=flat)](https://travis-ci.org/pgilad/array-scaler)
 
 > Scale an array preserving order to a discrete or continuous scale
 
 ## Install
 
 ```bash
-$ npm install --save scaler
+$ npm install --save array-scaler
 ```
 
 ## Usage
 
 ```js
-var scaler = require('scaler');
+var scaler = require('array-scaler');
 var scaledArray;
 
 // scale a simple array with default step = 1
