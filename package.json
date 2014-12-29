@@ -32,7 +32,7 @@
     "continuous"
   ],
   "dependencies": {
-    "array-uniq": "^1.0.1"
+    "array-uniq": "^1.0.2"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
